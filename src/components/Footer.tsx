@@ -1,7 +1,7 @@
 export default function Footer(){
     return (
-        <>
-            <p className="text-md text-black">Take a screenshot to save the image!</p>
-        </>
+        <div className="sticky bottom-0">
+            <p className="text-md text-black text-center">Take a screenshot to save!</p>
+        </div>
     );
 }
