@@ -34,7 +34,7 @@ export default function Profile(){
             </div>
             <div className="flex flex-col text-left">
                 <div className="flex items-center gap-x-2">
-                    <p className="text-lg text-black">fufufafa</p>
+                    <p className="text-md md:text-lg text-black">fufufafa</p>
                     <div className='flex items-center gap-x-0.5'>
                         <div className='w-1.5 h-2.5 rounded-full bg-green-500'></div>
                         <div className='w-1.5 h-2.5 rounded-full bg-green-500'></div>
@@ -48,7 +48,7 @@ export default function Profile(){
                         <div className='w-1.5 h-2.5 rounded-full bg-green-200'></div>
                     </div>
                 </div>
-                <p className="text-lg text-gray-300">KASKUS Addict | {formattedDate} {formattedTime}</p>
+                <p className="text-sm md:text-lg text-gray-300">KASKUS Addict | {formattedDate} {formattedTime}</p>
             </div>
         </div>
     );
